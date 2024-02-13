@@ -22,7 +22,7 @@ services:
       - .env
     restart: always
     volumes:
-      - backend_data:/data
+      - backend_data:/app
       - .:/app
 
 volumes:
