@@ -23,7 +23,7 @@ services:
     restart: always
     volumes:
       - backend_data:/data
-      - /backend:/app
+      - .:/app
 
 volumes:
   postgres_data:
